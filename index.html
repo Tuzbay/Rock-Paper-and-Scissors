@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper And Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Rock, Paper and Scissors</h1>
+
+    <div>
+        <h2 class="player-1">Player1:<span id="player-1"></span></h2>
+        <h2 class="player-2">Player2:<span id="player-2"></span></h2>
+    </div>
+
+    <div>
+        <h2 class="player1-choice">Player1 Choice:<span id="player1-choice"></span></h2>
+        <h2 class="player2-choice">Player2 Choice:<span id="player2-choice"></span></h2>
+    </div>
+    
+    <div class="deneme">
+
+        <div class="player1">
+            <button class="player1choice player1rock" id="Rock">Rock (A)</button>
+            <button class="player1choice player1paper" id="Paper">Paper (S)</button>
+            <button class="player1choice player1scissors" id="Scissors">Scissors (D)</button>
+
+            <br>
+            <img id="img1" src="./img/rock.jpg" alt="rock">
+            <p id="numb1" class="numb number1">0</p>
+        </div>
+        
+        <h3>Result</h3>
+        <hr>
+        <h1><span id="result"></span></h1>
+
+
+        <div class="player2">
+            <button class="player2choice player2rock" id="Rock">Rock (1)</button>
+            <button class="player2choice player2paper" id="Paper">Paper (2)</button>
+            <button class="player2choice player2scissors" id="Scissors">Scissors (3)</button>
+
+            <br>
+            <img id="img2" src="./img/rock.jpg" alt="rock">
+            <p id="numb2" class="numb number2">0</p>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

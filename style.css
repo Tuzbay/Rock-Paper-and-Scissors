@@ -1,0 +1,99 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+.player1-choice {
+    position: absolute;
+    left: 296px;
+    top: 100px;
+}
+
+#player2-choice {
+    color: blue;
+}
+
+#player1-choice {
+    color: red;
+}
+
+.player2-choice {
+    position: absolute;
+    left: 1038px;
+    top: 100px;
+    margin-bottom: 0;
+}
+
+.player1 {
+    position: absolute;
+    left: 300px;
+    top: 175px;
+}
+
+.player2 {
+    position: absolute;
+    right: 300px;
+    top: 175px;
+}
+
+.player-1 {
+    position: absolute;
+    left: 296px;
+    top: 50px;
+}
+
+.player-2 {
+    position: absolute;
+    left: 1038px;
+    top: 50px;
+}
+
+#player-1 {
+    color: red;
+}
+
+#player-2 {
+    color: blue;
+}
+
+img {
+    margin-top: 1rem;
+}
+
+.result {
+    display: inline-block;
+    margin-top: 13rem;
+} 
+
+
+h3 {
+    font-size: 3rem;
+    display: inline-block;
+    margin: 8rem 0 0 0;
+}
+
+hr {
+    width: 20%;
+}
+
+button {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.5rem;
+    margin: 6.6px;
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.numb {
+    font-size: 3rem;
+    margin-top: 0.8rem;
+}
+
+.number1 {
+    color: red;
+}
+
+.number2 {
+    color: blue;
+}
